@@ -1,0 +1,25 @@
+# Install command-line tools using Homebrew
+# Usage: `brew bundle Brewfile`
+
+# Make sure we’re using the latest Homebrew
+update
+
+# Upgrade any already-installed formulae
+upgrade
+
+# Install more recent versions of some OS X tools
+install vim
+#install homebrew/php/php55 --with-gmp
+
+install brew-cask
+install git
+#install hub
+#install legit
+install node
+#install rbenv
+install readline
+#install ruby-build
+install the_silver_searcher
+
+# Remove outdated versions from the cellar
+cleanup

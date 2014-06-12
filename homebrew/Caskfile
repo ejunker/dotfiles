@@ -1,0 +1,32 @@
+# Install native apps
+# Usage: `brew bundle Caskfile`
+
+install caskroom/cask/brew-cask
+tap caskroom/versions
+
+# dev tools
+cask install dash
+cask install hipchat
+cask install iterm2
+cask install sequel-pro
+cask install sourcetree
+cask install vagrant
+cask install virtualbox
+
+# browsers
+cask install firefox
+cask install google-chrome
+
+# editors
+#cask install atom
+#cask install macvim
+cask install phpstorm
+#cask install sublime-text
+#cask install textmate
+cask install textwrangler
+
+# additional apps
+#cask install alfred
+#cask install dropbox
+#cask install evernote
+#cask install sizeup
