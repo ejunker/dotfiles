@@ -9,6 +9,7 @@ cask install dash
 cask install hipchat
 cask install iterm2
 cask install mysqlworkbench
+cask install reggy
 cask install sequel-pro
 cask install sourcetree
 cask install vagrant
