@@ -29,6 +29,7 @@ cask install textwrangler
 
 # additional apps
 cask install alfred
+cask install cakebrew
 cask install flux
 cask install dropbox
 cask install evernote
