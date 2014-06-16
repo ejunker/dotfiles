@@ -20,6 +20,7 @@
         diff-grep = log -S
         diff-grep-patch = log -p -S
         g = grep --break --heading --line-number
+        last-tag = describe --tags
         promote = !$ZSH/bin/git-promote
         wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
