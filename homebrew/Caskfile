@@ -8,6 +8,7 @@ tap caskroom/versions
 cask install dash
 cask install hipchat
 cask install iterm2
+cask install mysqlworkbench
 cask install sequel-pro
 cask install sourcetree
 cask install vagrant
@@ -26,7 +27,24 @@ cask install phpstorm
 cask install textwrangler
 
 # additional apps
-#cask install alfred
-#cask install dropbox
-#cask install evernote
-#cask install sizeup
+cask install alfred
+cask install flux
+cask install dropbox
+cask install evernote
+cask install notational-velocity
+cask install sizeup
+cask install spotify
+
+# quicklook plugins
+cask install qlcolorcode
+cask install qlstephen
+cask install qlmarkdown
+cask install quicklook-json
+cask install qlprettypatch
+cask install quicklook-csv
+cask install betterzipql
+cask install webp-quicklook
+
+# link dir into Alfred
+cask alfred link
+
