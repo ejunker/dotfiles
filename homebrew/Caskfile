@@ -30,9 +30,10 @@ cask install textwrangler
 # additional apps
 cask install alfred
 cask install cakebrew
-cask install flux
 cask install dropbox
 cask install evernote
+cask install flux
+cask install lastpass-universal
 cask install notational-velocity
 cask install sizeup
 cask install spotify
