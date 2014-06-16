@@ -20,5 +20,5 @@ When you see "installing dependencies" you may need to press Enter to see the pa
 
 Git will be configured with your name and email address.
 
-It will install [Homebrew](http://brew.sh) and [Homebrew Cask](http://caskroom.io). See [Brewfile](https://raw.githueusercontent.com/ejunker/dotfiles/master/homebrew/Brewfile) and [Caskfile](https://raw.githubusercontent.com/ejunker/dotfiles/master/homebrew/Caskfile) to see the applications that are installed. You can comment out any applications that you do not want installed. You can use `brew uninstall <application>` or `brew cask uninstall <application>` to uninstall apps. 
+It will install [Homebrew](http://brew.sh) and [Homebrew Cask](http://caskroom.io). See [Brewfile](https://raw.githubusercontent.com/ejunker/dotfiles/master/homebrew/Brewfile) and [Caskfile](https://raw.githubusercontent.com/ejunker/dotfiles/master/homebrew/Caskfile) to see the applications that are installed. You can comment out any applications that you do not want installed. You can use `brew uninstall <application>` or `brew cask uninstall <application>` to uninstall apps.
 
