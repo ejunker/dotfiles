@@ -9,16 +9,33 @@
 [credential]
         helper = GIT_CREDENTIAL_HELPER
 [alias]
+        st = status -sb
+        di = diff
+        df = diff
         co = checkout
+        ci = commit
+        br = branch
+        sta = stash
+        ls = log --stat
+        diff-grep = log -S
+        diff-grep-patch = log -p -S
+        g = grep --break --heading --line-number
         promote = !$ZSH/bin/git-promote
         wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
         count   = !git shortlog -sn
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	glo = log --decorate --oneline --graph
+	glg = log --decorate --graph --abbrev-commit --date=relative
+	history = log --graph --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset' --pretty=format:'%Cblue%gd%Cred: %C(yellow)%s'q
+	alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\\t => \\2/' | sort
+	standup = !"git log --reverse --branches --since=$(if [[ "Mon" == "$(date +%a)" ]]; then echo "last friday"; else echo "yesterday"; fi) --author=$(git config --get user.email) --format=format:'%C(cyan) %ad %C(yellow)%h %Creset %s %Cgreen%d' --date=local"
 [color]
         diff = auto
         status = auto
         branch = auto
         ui = true
+        interactive = auto
 [core]
         excludesfile = ~/.gitignore
         editor = vim
@@ -36,3 +53,11 @@
         #
         # Setting to git 2.0 default to surpress warning message
         default = simple
+[grep]
+        lineNumber = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /opt/homebrew-cask/Caskroom/sourcetree/1.9.4.1/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
