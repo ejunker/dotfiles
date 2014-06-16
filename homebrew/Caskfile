@@ -49,3 +49,6 @@ cask install webp-quicklook
 # link dir into Alfred
 cask alfred link
 
+# cleanup
+cask cleanup
+
