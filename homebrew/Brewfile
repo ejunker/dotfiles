@@ -23,5 +23,8 @@ install tmux
 install wget
 install zsh
 
+tap monochromegane/pt
+install pt
+
 # Remove outdated versions from the cellar
 cleanup
