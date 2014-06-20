@@ -13,7 +13,8 @@ cask install reggy
 cask install sequel-pro
 cask install sourcetree
 cask install vagrant
-cask install virtualbox
+#cask install virtualbox
+cask install vmware-fusion
 
 # browsers
 cask install firefox
@@ -29,6 +30,7 @@ cask install textwrangler
 
 # additional apps
 cask install alfred
+cask install atext
 cask install cakebrew
 cask install dropbox
 cask install evernote
