@@ -9,6 +9,9 @@ export ZSH=$HOME/.dotfiles
 cd "$(dirname "$0")/.."
 DOTFILES_ROOT=$(pwd)
 
+# Update software
+sudo softwareupdate -i -a
+
 # Set OS X defaults
 $DOTFILES_ROOT/osx/set-defaults.sh
 
