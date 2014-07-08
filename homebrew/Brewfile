@@ -15,6 +15,7 @@ install brew-cask
 install git
 install grc
 install hub
+install mobile-shell
 install node
 install readline
 install reattach-to-user-namespace
