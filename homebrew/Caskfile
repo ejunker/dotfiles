@@ -13,6 +13,7 @@ cask install reggy
 cask install sequel-pro
 cask install sourcetree
 cask install vagrant
+cask install vagrant-manager
 #cask install virtualbox
 cask install vmware-fusion
 
@@ -34,11 +35,13 @@ cask install atext
 cask install cakebrew
 cask install dropbox
 cask install evernote
+cask install flash
 cask install flux
 cask install lastpass-universal
 cask install notational-velocity
 cask install sizeup
 cask install spotify
+cask install synergy
 
 # quicklook plugins
 cask install qlcolorcode
