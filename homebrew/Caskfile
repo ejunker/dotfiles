@@ -45,6 +45,7 @@ cask install spectacle
 cask install spotify
 cask install synergy
 cask install vlc
+cask install yasu
 
 # quicklook plugins
 cask install qlcolorcode
