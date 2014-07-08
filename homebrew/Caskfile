@@ -39,9 +39,12 @@ cask install flash
 cask install flux
 cask install lastpass-universal
 cask install notational-velocity
-cask install sizeup
+cask install sequential
+#cask install sizeup
+cask install spectacle
 cask install spotify
 cask install synergy
+cask install vlc
 
 # quicklook plugins
 cask install qlcolorcode
