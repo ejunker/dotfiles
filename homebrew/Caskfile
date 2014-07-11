@@ -6,6 +6,7 @@ tap caskroom/versions
 
 # dev tools
 cask install dash
+cask install github
 cask install hipchat
 cask install iterm2
 cask install mysqlworkbench
